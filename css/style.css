@@ -1,0 +1,252 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  font-size: 0.3rem;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+b,
+strong {
+  font-weight: normal;
+}
+
+i,
+em {
+  font-style: normal;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clearfix:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+input {
+  border: none;
+  padding: 0;
+  outline: none;
+  background: none;
+}
+
+textarea {
+  resize: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+img {
+  vertical-align: top;
+}
+
+body {
+  height: 24.15rem;
+}
+
+header {
+  width: 16rem;
+  height: 2.975rem;
+  background: url(../img/banner-about.png) no-repeat;
+  background-size: 16rem 2.975rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .left {
+  width: 3.2rem;
+  height: 2.1rem;
+  margin-left: 0.8rem;
+  margin-top: 0.425rem;
+  background: url(../img/about-logo.png) no-repeat;
+  background-size: 3.2rem 2.1rem;
+}
+
+header .menu {
+  width: 0.975rem;
+  height: 0.9rem;
+  display: block;
+  background: url(../img/about-menu.png) no-repeat;
+  background-size: 0.975rem 0.9rem;
+  text-indent: -999em;
+  margin-right: 0.55rem;
+  margin-top: 1rem;
+}
+
+.content {
+  width: 16rem;
+  height: 23.175rem;
+  background: #ebebeb;
+  overflow: hidden;
+}
+
+.content .text {
+  width: 16rem;
+  height: 22.125rem;
+  border: 0.025rem solid #d2d2d2;
+  background: #fff;
+  margin-top: 0.575rem;
+  box-sizing: border-box;
+  padding-top: 0.65rem;
+}
+
+.content .text h3 {
+  width: 15.95rem;
+  height: 1.75rem;
+  background: url(../img/style-title.png) no-repeat 5rem 0;
+  background-size: 6.15rem 0.475rem;
+  font-size: 0.375rem;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.content .text h3 img {
+  width: 1.375rem;
+  height: 1.55rem;
+  position: absolute;
+}
+
+.content .text h3 img.left-img {
+  left: 4.05rem;
+  top: 0.2rem;
+}
+
+.content .text h3 img.right-img {
+  left: 10.5rem;
+  top: 0.2rem;
+}
+
+.content .text h3 span {
+  margin-top: 1rem;
+  display: block;
+}
+
+.content .text ul {
+  width: 15.95rem;
+  height: 14.15rem;
+  padding-left: 1.275rem;
+  padding-right: 0.5rem;
+  margin-top: 0.75rem;
+  box-sizing: border-box;
+}
+
+.content .text ul li {
+  width: 6.275rem;
+  height: 4.35rem;
+  border: 0.025rem solid #ccc;
+  margin-right: 0.7rem;
+  text-align: center;
+  margin-bottom: 1.375rem;
+}
+
+.content .text ul li a {
+  width: 6.275rem;
+  height: 4.35rem;
+  display: block;
+  background: url(../img/style-1.png) no-repeat;
+  background-size: 6.275rem 4.35rem;
+}
+
+.content .text ul li a.two {
+  background: url(../img/style-2.png) no-repeat;
+  background-size: 6.275rem 4.35rem;
+}
+
+.content .text ul li a.three {
+  background: url(../img/style-3.png) no-repeat;
+  background-size: 6.275rem 4.35rem;
+}
+
+.content .text ul li a.four {
+  background: url(../img/style-4.png) no-repeat;
+  background-size: 6.275rem 4.35rem;
+}
+
+.content .text ul li a.five {
+  background: url(../img/style-5.png) no-repeat;
+  background-size: 6.275rem 4.35rem;
+}
+
+.content .text ul li a.six {
+  background: url(../img/style-6.png) no-repeat;
+  background-size: 6.275rem 4.35rem;
+}
+
+footer {
+  width: 16rem;
+  height: 2.25rem;
+  background: url(../img/footbg.png) no-repeat;
+  background-size: 16rem 2.25rem;
+}
+
+footer nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+footer nav ul li {
+  flex: 1;
+}
+
+footer nav ul li a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  background: url(../img/foot1.png) no-repeat 1.4rem 0.3rem;
+  background-size: 1.275rem 1.05rem;
+}
+
+footer nav ul li a.two {
+  background: url(../img/foot2.png) no-repeat 1.45rem 0.25rem;
+  background-size: 1.15rem 1.075rem;
+}
+
+footer nav ul li a.three {
+  background: url(../img/foot3.png) no-repeat 1.45rem 0.25rem;
+  background-size: 1.125rem 1.1rem;
+}
+
+footer nav ul li a.four {
+  background: url(../img/foot4.png) no-repeat 1.325rem 0.25rem;
+  background-size: 1.125rem 1.1rem;
+}
+
+footer nav ul li a span {
+  font-size: 0.45rem;
+  color: #fff;
+  margin-top: 1.6rem;
+  display: block;
+}

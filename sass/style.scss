@@ -1,0 +1,160 @@
+@import 'base.scss';
+
+body{
+	height:966px;
+}
+header{
+	width:640px;
+	height:119px;
+	background:url(../img/banner-about.png) no-repeat;
+	background-size:640px 119px;
+	display:flex;
+	justify-content:space-between;
+	.left{
+		width:128px;
+		height:84px;
+		margin-left:32px;
+		margin-top:17px;
+		background:url(../img/about-logo.png) no-repeat;
+		background-size:128px 84px;
+	}
+	.menu{
+		width:39px;
+		height:36px;
+		display:block;
+		background:url(../img/about-menu.png) no-repeat;
+		background-size:39px 36px;
+		text-indent:-999em;
+		margin-right:22px;
+		margin-top:40px;
+		
+	}
+}
+.content{
+	width:640px;
+	height:927px;
+	background:#ebebeb;
+	overflow:hidden;
+	.text{
+		width:640px;
+		height:885px;
+		border:1px solid #d2d2d2;
+		background:#fff;
+		margin-top:23px;
+		box-sizing:border-box;
+		padding-top:26px;
+		h3{
+			width:638px;
+			height:70px;
+			background:url(../img/style-title.png) no-repeat 200px 0;
+			background-size:246px 19px;
+			font-size:15px;
+			text-align:center;			
+			box-sizing:border-box;
+			overflow:hidden;
+			position:relative;
+			img{
+				width:55px;
+				height:62px;
+				position:absolute;
+				&.left-img{
+					left:162px;
+					top:8px;
+				}
+				&.right-img{
+					left:420px;
+					top:8px;
+				}
+			}
+			span{
+				margin-top:40px;
+				display:block;
+			}
+		}
+		ul{
+			width:638px;
+			height:566px;
+			padding-left:51px;
+			padding-right:20px;
+			margin-top:30px;
+			box-sizing:border-box;
+			li{
+				width:251px;
+				height:174px;
+				border:1px solid #ccc;
+				margin-right:28px;
+				text-align:center;
+				margin-bottom:55px;
+				a{
+					width:251px;
+					height:174px;
+					display:block;
+					background:url(../img/style-1.png) no-repeat;
+					background-size:251px 174px;
+					&.two{
+						background:url(../img/style-2.png) no-repeat;
+						background-size:251px 174px;
+					}
+					&.three{
+						background:url(../img/style-3.png) no-repeat;
+						background-size:251px 174px;
+					}
+					&.four{
+						background:url(../img/style-4.png) no-repeat;
+						background-size:251px 174px;
+					}
+					&.five{
+						background:url(../img/style-5.png) no-repeat;
+						background-size:251px 174px;
+					}
+					&.six{
+						background:url(../img/style-6.png) no-repeat;
+						background-size:251px 174px;
+					}
+				}
+			}
+		}
+	}
+}
+footer{
+	width:640px;
+	height:90px;
+	background:url(../img/footbg.png) no-repeat;
+	background-size:640px 90px;
+	nav{
+		ul{
+			display:flex;
+			justify-content:center;
+			li{
+				flex:1;
+				a{
+					width:100%;
+					height:100%;
+					display:block;
+					text-align:center;
+					overflow:hidden;
+					background:url(../img/foot1.png) no-repeat 56px 12px;
+					background-size:51px 42px;
+					&.two{
+						background:url(../img/foot2.png) no-repeat 58px 10px;
+						background-size:46px 43px;
+					}
+					&.three{
+						background:url(../img/foot3.png) no-repeat 58px 10px;
+						background-size:45px 44px;
+					}
+					&.four{
+						background:url(../img/foot4.png) no-repeat 53px 10px;
+						background-size:45px 44px;
+					}
+					span{
+						font-size:18px;
+						color:#fff;
+						margin-top:64px;
+						display:block;
+					}
+				}
+			}
+		}
+	}
+}

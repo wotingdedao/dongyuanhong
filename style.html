@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>style</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript">
+    window.onload=function(){
+    	var html=document.documentElement;
+    	html.style.fontSize=20*html.clientWidth/320+'px';
+    	window.onresize=function(){
+    		html.style.fontSize=20*html.clientWidth/320+'px';
+    	}
+    }
+    </script>
+</head>
+<body>
+	<header>
+		<div class="left"></div>
+		<a href="javascript:;" class="menu">菜单</a>
+	</header>
+	<!--内容区-->
+	<div class="content">
+		<div class="text">
+			<h3>
+				<span>企业风采</span>
+				<img src="img/about-l.png" class="left-img">
+				<img src="img/about-r.png" class="right-img">
+			</h3>
+			<ul class="clearfix">
+				<li class="fl"><a href="javascript:;"></a></li>
+				<li class="fl"><a href="javascript:;" class="two"></a>
+				</li>
+				<li class="fl"><a href="javascript:;" class="three"></a>
+				</li>
+				<li class="fl"><a href="javascript:;" class="four"></a>
+				</li>
+				<li class="fl"><a href="javascript:;" class="five"></a>
+				</li>
+				<li class="fl"><a href="javascript:;" class="six"></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!--底部-->
+	<footer>
+		<nav>
+			<ul class="clearfix">
+				<li class="fl"><a href="index.html">
+					<span>首页</span>
+				</a></li>
+				<li class="fl"><a href="javascript:;" class="two">
+					<span>联系电话</span>
+				</a></li>
+				<li class="fl"><a href="javascript:;" class="three">
+					<span>地址导航</span>
+				</a></li>
+				<li class="fl"><a href="index.html" class="four">
+					<span>返回</span>
+				</a></li>
+			</ul>
+		</nav>
+	</footer>
+	
+</body>
+</html>
